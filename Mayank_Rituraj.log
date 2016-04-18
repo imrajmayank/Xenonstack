@@ -1,0 +1,42 @@
+[2016-04-18 19:25:50,970][INFO ][node                     ] [Mayank] version[2.3.1], pid[13812], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-18 19:25:51,026][INFO ][node                     ] [Mayank] initializing ...
+[2016-04-18 19:25:54,616][INFO ][plugins                  ] [Mayank] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-18 19:25:54,841][INFO ][env                      ] [Mayank] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [12.2gb], net total_space [212.9gb], spins? [unknown], types [NTFS]
+[2016-04-18 19:25:54,852][INFO ][env                      ] [Mayank] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-18 19:26:39,693][INFO ][node                     ] [Mayank] initialized
+[2016-04-18 19:26:39,696][INFO ][node                     ] [Mayank] starting ...
+[2016-04-18 19:26:41,332][INFO ][transport                ] [Mayank] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-18 19:26:41,438][INFO ][discovery                ] [Mayank] Mayank_Rituraj/1FCiHnWYSkuvmNyKg366YA
+[2016-04-18 19:26:45,879][INFO ][cluster.service          ] [Mayank] new_master {Mayank}{1FCiHnWYSkuvmNyKg366YA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 19:26:46,238][INFO ][http                     ] [Mayank] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-18 19:26:46,242][INFO ][node                     ] [Mayank] started
+[2016-04-18 19:26:46,927][INFO ][gateway                  ] [Mayank] recovered [1] indices into cluster_state
+[2016-04-18 19:26:51,791][INFO ][cluster.metadata         ] [Mayank] [topbeat-2016.04.18] creating index, cause [auto(bulk api)], templates [topbeat], shards [5]/[1], mappings [_default_, process]
+[2016-04-18 19:26:59,397][INFO ][cluster.metadata         ] [Mayank] [topbeat-2016.04.18] update_mapping [process]
+[2016-04-18 19:27:00,592][INFO ][cluster.routing.allocation] [Mayank] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.18][4]] ...]).
+[2016-04-18 19:27:03,516][INFO ][cluster.metadata         ] [Mayank] [topbeat-2016.04.18] create_mapping [system]
+[2016-04-18 19:27:06,231][INFO ][cluster.metadata         ] [Mayank] [topbeat-2016.04.18] create_mapping [filesystem]
+[2016-04-18 19:27:16,935][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:27:17,148][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:27:47,214][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:28:17,277][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:28:17,286][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:28:47,344][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:29:17,586][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.1gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:29:17,807][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:29:48,057][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:30:18,192][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:30:18,202][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:30:48,278][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:31:18,322][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:31:18,329][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:31:48,583][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:32:18,697][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:32:18,711][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:32:49,143][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:33:19,215][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:33:19,223][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:33:49,266][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:34:19,336][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
+[2016-04-18 19:34:19,348][INFO ][cluster.routing.allocation.decider] [Mayank] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-18 19:34:49,447][WARN ][cluster.routing.allocation.decider] [Mayank] high disk watermark [90%] exceeded on [1FCiHnWYSkuvmNyKg366YA][Mayank][C:\Users\Mayank\Desktop\Raj\elasticsearch\data\Mayank_Rituraj\nodes\0] free: 12.2gb[5.7%], shards will be relocated away from this node
